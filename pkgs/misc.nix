@@ -13,8 +13,6 @@ environment.systemPackages = with pkgs; [
 	# Networking
 	host
 	dnslookup
-	tailscale
-	tailscale-systray
 	
   # KDE Plasma
     home-manager
