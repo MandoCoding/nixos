@@ -11,6 +11,7 @@ environment.systemPackages = with pkgs; [
 	# Temp
 	host
 	dnslookup
+	tailscale
 	
   # KDE Plasma
     home-manager
