@@ -19,11 +19,6 @@
 		./pkgs/gaming.nix
 		./pkgs/misc.nix
 		./pkgs/terminal.nix
-
-		# Flakes
-		#inputs.dms.nixosModules.greeter
-		#inputs.dms.nixosModules.dank-material-shell
-		#inputs.home-manager.nixosModules.home-manager
 	];
 
 	# Bootloader.
@@ -79,23 +74,5 @@
 	programs.nix-ld.enable = true;
 	nix.settings.experimental-features = [ "nix-command" "flakes" ];
 	system.stateVersion = "25.11";
-
-#	home-manager = {
-#	extraSpecialArgs = { inherit inputs; };
-#	users = {
-#		mando = import ./modules/home/home.nix;
-#	};
-#	};
-
-#programs.dank-material-shell = {
-#	enable = true;
-#	enableSystemMonitoring = true;
-#	dgop.package = inputs.dgop.packages.${pkgs.system}.default;
-#};
-
-#programs.dank-material-shell.greeter = {
-#	enable = true;
-#	compositor.name = "hyprland";	# Or "hyprland" or "sway"
-#};
 
 }
