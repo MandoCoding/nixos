@@ -9,12 +9,11 @@
 
 environment.systemPackages = with pkgs; [
 	# Temp
-	basalt #obsidian TUI
 
 	# Networking
 	host
 	dnslookup
-	
+
   # KDE Plasma
     home-manager
 

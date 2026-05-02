@@ -9,7 +9,6 @@
 	
 		# Graphics Shell
 		./locals/german.nix
-		./desktop/kde.nix
 		./desktop/hyprland.nix
 
 		 # Packages
