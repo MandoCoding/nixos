@@ -2,13 +2,14 @@
 
 {
 
-	# special permissions
-    programs.firefox.enable = true;
+    # special permissions
     programs.dconf.enable = true;
-    services.flatpak.enable = true;
+    # programs.firefox.enable = true;
+    # services.flatpak.enable = true;
 
 environment.systemPackages = with pkgs; [
 	# Temp
+	basalt #obsidian TUI
 
 	# Networking
 	host
@@ -20,7 +21,7 @@ environment.systemPackages = with pkgs; [
     # dependencies
     pciutils
     direnv
-    cargo
+    pkgs-unstable.cargo
     glib
     dconf
     gcc
@@ -30,7 +31,6 @@ environment.systemPackages = with pkgs; [
     gh
     xdg-utils
     uv #python installer
-
     
     # misc
     discord
@@ -38,7 +38,6 @@ environment.systemPackages = with pkgs; [
     wl-clipboard
     slurp
     zenBrowser.packages.${pkgs.stdenv.hostPlatform.system}.default
-
     
     # Editors
     vscodium-fhs
@@ -66,6 +65,8 @@ environment.systemPackages = with pkgs; [
     speedtest
     switcheroo
     nmgui
+    footage
+    pkgs-unstable.cine
 
   ];
 }

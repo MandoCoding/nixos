@@ -19,7 +19,6 @@
 		./pkgs/gaming.nix
 		./pkgs/misc.nix
 		./pkgs/terminal.nix
-    	./pkgs/tailscale.nix
 	];
 
 	# Bootloader.
