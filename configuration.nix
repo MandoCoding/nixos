@@ -7,9 +7,11 @@
 		./hardware-configuration.nix
 		./hardware-extra.nix
 	
-		# Graphics Shell
-		./locals/german.nix
+		# Graphics Shell (only use one desktop at a time, cross-usage breaks things)
+		./locals/de.nix
 		./desktop/hyprland.nix
+		./desktop/kde.nix
+
 
 		 # Packages
 		./pkgs/creative.nix
