@@ -42,6 +42,7 @@ environment.systemPackages = with pkgs; [
     vscodium-fhs
     pkgs-unstable.jetbrains.datagrip
     pkgs-unstable.jetbrains.idea
+    # pkgs.jetbrains.idea-oss
 
     # Testing
     quickemu
