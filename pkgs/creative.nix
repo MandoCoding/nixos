@@ -12,11 +12,6 @@ environment.systemPackages = with pkgs; [
     pureref
     qimgv
 
-    # ranger
-    tealdeer
-    yazi
-    git
-
     # Gnome development
     icon-library
     elastic
