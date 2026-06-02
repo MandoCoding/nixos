@@ -11,7 +11,10 @@ environment.systemPackages = with pkgs; [
     # Networking
     host
     dnslookup
+
+    # Version control
     git
+    github-cli
 
     # KDE Plasma
     home-manager
