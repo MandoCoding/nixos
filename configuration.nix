@@ -5,13 +5,14 @@
 		[
 		# Hardware requirements
 		./hardware-configuration.nix
-		./hardware-extra.nix
-	
-		# Graphics Shell (only use one desktop at a time, cross-usage breaks things)
-		./locals/de.nix
-		./desktop/hyprland.nix
-		./desktop/kde.nix
 
+        # Policies
+		./policy/bluetooth.nix
+		./policy/de.nix
+
+		# Graphics Shell
+		./pkgs/de/hyprland.nix
+		./pkgs/de/kde.nix
 
 		 # Packages
 		./pkgs/creative.nix
