@@ -54,6 +54,12 @@
 	pulse.enable = true;
 	};
 
+    # Enable LocalSend Ports
+    networking.firewall = {
+        allowedTCPPorts = [ 53317 ];
+        allowedUDPPorts = [ 53317 ];
+    };
+
 	# Define User
 	users.users.mando = {
 	isNormalUser = true;

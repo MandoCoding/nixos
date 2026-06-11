@@ -30,7 +30,7 @@ environment.systemPackages = with pkgs; [
 	git
 	
 	# Terminal TUI
-	ncdu
+	gdu
 	bluetui
 	yazi
 	superfile

@@ -11,6 +11,7 @@ environment.systemPackages = with pkgs; [
     # Networking
     host
     dnslookup
+    localsend
 
     # Version control
     git
