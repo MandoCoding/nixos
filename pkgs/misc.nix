@@ -70,6 +70,6 @@ environment.systemPackages = with pkgs; [
     gh
     xdg-utils
     uv #python installer
-
+    butane
   ];
 }

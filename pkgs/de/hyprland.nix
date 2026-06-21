@@ -23,6 +23,7 @@
     hyprlock
     hyprpaper
     hyprsunset
+    hyprshutdown
     hyprpolkitagent
     swaynotificationcenter
     swayosd
