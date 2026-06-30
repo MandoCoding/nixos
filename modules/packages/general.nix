@@ -12,7 +12,7 @@ environment.systemPackages = with pkgs; [
     blackbox-terminal
 
     # general
-    vesktop # discord client
+    discord # discord client
     obsidian
     zenBrowser.packages.${pkgs.stdenv.hostPlatform.system}.default
 
