@@ -5,15 +5,15 @@
 environment.systemPackages = with pkgs; [
 	# Terminal Apps
 	ghostty
-    	blackbox-terminal
-    	
+    blackbox-terminal
+
 	# Core Packages
 	fish
 	eza
 	fastfetch
 	tealdeer
 	zoxide
-	
+
 	# Editors
 	micro 
 	neovim
@@ -33,7 +33,7 @@ environment.systemPackages = with pkgs; [
 	gdu
 	bluetui
 	yazi
-	superfile
+	broot
 
 	# HW Monitoring 
 	btop

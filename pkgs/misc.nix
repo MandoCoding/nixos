@@ -4,27 +4,23 @@
 
     # special permissions
     programs.dconf.enable = true;
-    # programs.firefox.enable = true;
-    # services.flatpak.enable = true;
+    services.flatpak.enable = true;
 
 environment.systemPackages = with pkgs; [
     # Networking
     host
     dnslookup
-    localsend
+    inetutils
+    openvpn
 
     # Version control
     git
     github-cli
 
-    # KDE Plasma
-    home-manager
-
     # Editors
-    vscodium-fhs
-    pkgs-unstable.jetbrains.datagrip
     pkgs-unstable.jetbrains.idea
-    # pkgs.jetbrains.idea-oss
+    pkgs-unstable.jetbrains.datagrip
+    pkgs-unstable.jetbrains.webstorm
 
     # Testing
     quickemu
@@ -41,6 +37,7 @@ environment.systemPackages = with pkgs; [
     wl-clipboard
     slurp
     zenBrowser.packages.${pkgs.stdenv.hostPlatform.system}.default
+    localsend
 
     # GTK Apps
     adw-bluetooth
