@@ -11,16 +11,18 @@
 		./policy/de.nix
 
 		# Graphics Shell
-		./pkgs/de/hyprland.nix
 		./pkgs/de/kde.nix
 
-		 # Packages
-		./pkgs/creative.nix
-		./pkgs/docker.nix
+		 # Services
+		./services/docker.nix
+
+		# Packages
 		./pkgs/fonts.nix
-		./pkgs/gaming.nix
-		./pkgs/misc.nix
+		./pkgs/dev.nix
+		./pkgs/general.nix
+		./pkgs/office.nix
 		./pkgs/terminal.nix
+		./pkgs/virt.nix
 	];
 
 	# Bootloader.

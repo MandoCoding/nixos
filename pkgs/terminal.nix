@@ -3,16 +3,13 @@
 {
 
 environment.systemPackages = with pkgs; [
-	# Terminal Apps
-	ghostty
-    blackbox-terminal
-
 	# Core Packages
 	fish
 	eza
 	fastfetch
 	tealdeer
 	zoxide
+	wl-clipboard # copy/paste
 
 	# Editors
 	micro 

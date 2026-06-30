@@ -3,11 +3,10 @@
 {
 
 environment.systemPackages = with pkgs; [
-    google-chrome
-    onlyoffice-desktopeditors
-
-    element-desktop
-    keepassxc
-
-  ];
+    # Testing
+    quickemu
+    quickgui
+    OVMF
+    boxes
+    ];
 }

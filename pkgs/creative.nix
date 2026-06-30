@@ -6,7 +6,6 @@ environment.systemPackages = with pkgs; [
     # Creative tools
     blender
     krita
-    obsidian
     obs-studio
     orca-slicer
     pureref
