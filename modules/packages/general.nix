@@ -15,6 +15,7 @@ environment.systemPackages = with pkgs; [
     discord # discord client
     obsidian
     zenBrowser.packages.${pkgs.stdenv.hostPlatform.system}.default
+    gparted
 
     # GTK Apps
     gnome-text-editor
@@ -25,6 +26,7 @@ environment.systemPackages = with pkgs; [
     loupe
     nautilus
     resources
+    lact
     speedtest
     switcheroo
     cine

@@ -22,7 +22,7 @@
     ## enable additional services
     ../../modules/services/docker.nix
     # ../../modules/services/localsend.nix
-    # ../../modules/services/tailscale.nix
+    ../../modules/services/tailscale.nix
 
     ## install applications
     ../../modules/packages/fonts.nix
