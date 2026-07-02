@@ -12,6 +12,6 @@
 environment.systemPackages = with pkgs; [
     # Launchers
     steam
-    heroic
+    # heroic # commented out due to current pnpm CVE's
   ];
 }

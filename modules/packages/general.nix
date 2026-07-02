@@ -27,6 +27,7 @@ environment.systemPackages = with pkgs; [
     nautilus
     resources
     lact
+    foliate
     speedtest
     switcheroo
     cine

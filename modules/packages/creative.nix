@@ -1,4 +1,4 @@
-{ pkgs, ... }:
+{ pkgs, pkgs-unstable, inputs, zenBrowser, ... }:
 
 {
 environment.systemPackages = with pkgs; [
@@ -8,7 +8,7 @@ environment.systemPackages = with pkgs; [
     krita
     obs-studio
     orca-slicer
-    pureref
+    pkgs-unstable.pureref
     qimgv
 
     # Gnome development
