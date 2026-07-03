@@ -5,6 +5,8 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
     nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
 
+    qylock.url = "github:Darkkal44/qylock";
+
     zen-browser = {
       url = "github:youwen5/zen-browser-flake";
       inputs.nixpkgs.follows = "nixpkgs";
@@ -21,7 +23,7 @@
     };
   };
 
-  outputs = inputs@{ nixpkgs, nixpkgs-unstable, zen-browser, ... }:
+  outputs = inputs@{ nixpkgs, nixpkgs-unstable, zen-browser, qylock, ... }:
   let
     system = "x86_64-linux";
 
@@ -35,6 +37,27 @@
 
       modules = [
         hostPath
+        qylock.nixosModules.default
+
+        ({ pkgs, ... }: {
+          services.displayManager.sddm.enable = true;
+          services.displayManager.sddm.wayland.enable = true;
+
+          programs.qylock = {
+            enable = true;
+            theme = "pixel-dusk-city";
+
+            themeOptions = {
+              terraria.backgroundMode = "time";
+              Genshin.backgroundMode = "time";
+              clockwork.orbital = {
+                themeMode = "dark";
+                enableWindup = true;
+              };
+              osu.gameMode = "menu";
+            };
+          };
+        })
       ];
 
       specialArgs = {
