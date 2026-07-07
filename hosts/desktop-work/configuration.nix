@@ -30,9 +30,8 @@
     ../../modules/packages/dev.nix
     ../../modules/packages/virt.nix
     ../../modules/packages/general.nix
-    # ../../modules/packages/creative.nix
-    # ../../modules/packages/gaming.nix
     ../../modules/packages/office.nix
+    ../../modules/packages/security.nix
 
   ];
 
