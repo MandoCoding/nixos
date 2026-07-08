@@ -32,5 +32,6 @@ environment.systemPackages = with pkgs; [
     xdg-utils
     uv #python installer
     butane
+    kubectl
    ];
 }
