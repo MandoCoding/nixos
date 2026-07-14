@@ -17,6 +17,7 @@ services = {
   kdePackages.kpat # Solitaire
   kdePackages.ksudoku
   kdePackages.ktorrent
+  kdePackages.okular
 ];
 
 environment.systemPackages = with pkgs; [
