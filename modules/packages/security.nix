@@ -5,6 +5,7 @@
 environment.systemPackages = with pkgs; [
     nmap
     amass
+    masscan
 
     nmap
     burpsuite
