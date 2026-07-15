@@ -5,21 +5,11 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
     nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
     apple-fonts.url = "github:Lyndeno/apple-fonts.nix";
-    qylock.url = "github:Darkkal44/qylock";
+    qylock.url = "github:Darkkal44/qylock"; # evaluation warning: 'system' has been renamed to/replaced by 'stdenv.hostPlatform.system'
 
     zen-browser = {
       url = "github:youwen5/zen-browser-flake";
       inputs.nixpkgs.follows = "nixpkgs";
-    };
-
-    dms = {
-      url = "github:AvengeMedia/DankMaterialShell/stable";
-      inputs.nixpkgs.follows = "nixpkgs-unstable";
-    };
-
-    dgop = {
-      url = "github:AvengeMedia/dgop";
-      inputs.nixpkgs.follows = "nixpkgs-unstable";
     };
   };
 
