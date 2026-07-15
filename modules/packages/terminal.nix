@@ -25,6 +25,7 @@ environment.systemPackages = with pkgs; [
 	dysk
 	nmap
 	git
+	ripgrep
 	
 	# Terminal TUI
 	gdu

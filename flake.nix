@@ -4,7 +4,7 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-26.05";
     nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
-
+    apple-fonts.url = "github:Lyndeno/apple-fonts.nix";
     qylock.url = "github:Darkkal44/qylock";
 
     zen-browser = {
