@@ -31,5 +31,8 @@ environment.systemPackages = with pkgs; [
     speedtest
     switcheroo
     cine
+
+    # launcher
+    vicinae # raycast like
    ];
 }

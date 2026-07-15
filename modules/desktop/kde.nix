@@ -18,6 +18,7 @@ services = {
   kdePackages.ksudoku
   kdePackages.ktorrent
   kdePackages.okular
+  kdePackages.gwenview
 ];
 
 environment.systemPackages = with pkgs; [
