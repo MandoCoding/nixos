@@ -33,5 +33,6 @@ environment.systemPackages = with pkgs; [
     uv #python installer
     butane
     kubectl
+    kind #k8s in docker
    ];
 }
