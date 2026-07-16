@@ -34,5 +34,7 @@ environment.systemPackages = with pkgs; [
 
     # launcher
     vicinae # raycast like
+    speedtest-cli # laucher speed test
+    awww # launcher wallpaper
    ];
 }
