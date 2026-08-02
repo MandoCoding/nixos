@@ -33,6 +33,7 @@ environment.systemPackages = with pkgs; [
     uv #python installer
     butane
     kubectl
+    talosctl
 
     # used for k8squest
     kind #k8s in docker
