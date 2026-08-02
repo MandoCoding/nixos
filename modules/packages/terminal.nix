@@ -31,7 +31,9 @@ environment.systemPackages = with pkgs; [
 	gdu
 	bluetui
 	yazi
-	broot
+	broot #interactive tree
+	tree #static tree
+	file # encoding checker
 
 	# HW Monitoring 
 	btop

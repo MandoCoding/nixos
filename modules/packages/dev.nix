@@ -34,6 +34,7 @@ environment.systemPackages = with pkgs; [
     butane
     kubectl
     talosctl
+    k9s
 
     # used for k8squest
     kind #k8s in docker
