@@ -35,6 +35,7 @@ environment.systemPackages = with pkgs; [
     kubectl
     talosctl
     k9s
+    kubernetes-helm
 
     # used for k8squest
     kind #k8s in docker
