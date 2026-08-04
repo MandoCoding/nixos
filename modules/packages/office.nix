@@ -10,5 +10,7 @@ environment.systemPackages = with pkgs; [
     element-desktop
     keepassxc
 
+    obs-studio # screen-capture for  tutorials
+
   ];
 }
