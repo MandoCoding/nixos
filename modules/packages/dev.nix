@@ -6,7 +6,6 @@ environment.systemPackages = with pkgs; [
     # Networking
     host
     dnslookup
-    inetutils
     openvpn
 
     # Version control
@@ -18,28 +17,29 @@ environment.systemPackages = with pkgs; [
     pkgs-unstable.jetbrains.datagrip
     pkgs-unstable.jetbrains.webstorm
 
-    # utils/builders
+    # Linux utils
+    inetutils
+    xdg-utils
     pciutils
     direnv
-    cargo
-    glib
-    dconf
-    gcc
     iwd
-    go
-    unzip
-    gh
-    xdg-utils
-    uv #python installer
-    butane
-    kubectl
-    talosctl
-    k9s
-    kubernetes-helm
+    glib  # why
+    dconf # why
 
-    # used for k8squest
-    kind #k8s in docker
+    # Programming Languages
     python3
-    jq
+    butane
+    cargo
+    gcc
+    uv
+    go
+    jq #used in k8s-quest
+
+    # kubernetes
+    k9s
+    kind
+    kubectl
+    kubernetes-helm
+    talosctl
    ];
 }

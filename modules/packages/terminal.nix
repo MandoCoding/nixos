@@ -26,6 +26,7 @@ environment.systemPackages = with pkgs; [
 	nmap
 	git
 	ripgrep
+	unzip
 	
 	# Terminal TUI
 	gdu
