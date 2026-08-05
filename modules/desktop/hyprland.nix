@@ -12,9 +12,9 @@
   };
 
   environment.systemPackages = with pkgs; [
-    libsecret      # ← add: library nm-applet uses to talk to keyring
-    seahorse       # ← add: GUI to inspect/manage keyring contents
-    gnome-keyring        # ← make this explicit
+    libsecret       # ← add: library nm-applet uses to talk to keyring
+    seahorse        # ← add: GUI to inspect/manage keyring contents
+    gnome-keyring   # ← make this explicit
 
     hyprcursor
     rose-pine-hyprcursor

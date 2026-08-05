@@ -16,13 +16,12 @@
 
     ## enable desktops
     ../../modules/desktop/desktop-base.nix
-    ../../modules/desktop/hyprland.nix
     ../../modules/desktop/kde.nix
 
     ## enable additional services
     ../../modules/services/docker.nix
     ../../modules/services/podman.nix
-    # ../../modules/services/tailscale.nix
+    ../../modules/services/tailscale.nix
 
     ## install applications
     ../../modules/packages/fonts.nix
