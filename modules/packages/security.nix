@@ -18,6 +18,8 @@ environment.systemPackages = with pkgs; [
     hashcat
     arping
     wireshark
+    wrk
+    hping
 
     nikto
     whatweb
