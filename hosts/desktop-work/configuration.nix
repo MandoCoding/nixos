@@ -10,9 +10,6 @@
     ../../modules/policy/cleanup.nix
     ../../modules/policy/nix-policy.nix
 
-    ## custom hosts file for HTB
-    # ../../modules/policy/hosts.nix
-
     ## enable basic desktop services
     ../../modules/services/audio.nix
     ../../modules/services/bluetooth.nix
