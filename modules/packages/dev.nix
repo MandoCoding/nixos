@@ -34,6 +34,7 @@ environment.systemPackages = with pkgs; [
     uv
     go
     jq #used in k8s-quest
+    wget # needed for termix flatpak
 
     # kubernetes
     k9s
