@@ -35,6 +35,8 @@ environment.systemPackages = with pkgs; [
     go
     jq #used in k8s-quest
     wget # needed for termix flatpak
+    rclone # smb searching
+    config # smb searching
 
     # kubernetes
     k9s
