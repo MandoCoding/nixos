@@ -32,6 +32,9 @@ environment.systemPackages = with pkgs; [
     switcheroo
     cine
 
+    # other
+    proton-vpn
+
     # launcher
     vicinae # raycast like
     speedtest-cli # laucher speed test
