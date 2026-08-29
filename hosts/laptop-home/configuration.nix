@@ -20,7 +20,7 @@
     ../../modules/desktop/kde.nix
 
     ## enable additional services
-    ../../modules/services/docker.nix
+    # ../../modules/services/docker.nix
     ../../modules/services/localsend.nix
     # ../../modules/services/tailscale.nix
 
