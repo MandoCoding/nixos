@@ -31,6 +31,7 @@
     ../../modules/packages/general.nix
     ../../modules/packages/office.nix
     ../../modules/packages/security.nix
+    ../../modules/packages/creative.nix
 
   ];
 
