@@ -17,6 +17,8 @@ environment.systemPackages = with pkgs; [
     macchanger
     hashcat
     arping
+    arp-scan-rs
+    clinfo
     wireshark
     wrk
     hping
