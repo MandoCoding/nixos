@@ -32,6 +32,7 @@
     ../../modules/packages/general.nix
     ../../modules/packages/creative.nix
     ../../modules/packages/gaming.nix
+    ../../modules/packages/security.nix
     # ../../modules/packages/office.nix
 
   ];
