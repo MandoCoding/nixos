@@ -18,7 +18,6 @@ environment.systemPackages = with pkgs; [
 
     # GTK Apps
     blackbox-terminal
-    gnome-terminal
     gnome-text-editor
     gnome-calculator
     gnome-clocks
