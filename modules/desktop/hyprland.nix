@@ -14,7 +14,7 @@
   environment.systemPackages = with pkgs; [
     libsecret       # ← add: library nm-applet uses to talk to keyring
     seahorse        # ← add: GUI to inspect/manage keyring contents
-    gnome-keyring   # ← make this explicit
+    brightnessctl
 
     hyprcursor
     rose-pine-hyprcursor

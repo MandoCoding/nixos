@@ -22,7 +22,7 @@ environment.systemPackages = with pkgs; [
     xdg-utils
     pciutils
     direnv
-    iwd
+    iwd # i use nmcli
     glib  # why
     dconf # why
 
@@ -34,5 +34,8 @@ environment.systemPackages = with pkgs; [
     uv
     go
     wget # needed for termix flatpak
+
+    # Experimental
+    kdePackages.qttools
    ];
 }
