@@ -33,13 +33,6 @@ environment.systemPackages = with pkgs; [
     gcc
     uv
     go
-    jq #used in k8s-quest
     wget # needed for termix flatpak
-    # kubernetes
-    k9s
-    kind
-    kubectl
-    kubernetes-helm
-    talosctl
    ];
 }

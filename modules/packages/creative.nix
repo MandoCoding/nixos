@@ -9,11 +9,5 @@ environment.systemPackages = with pkgs; [
     obs-studio
     orca-slicer
     pkgs-unstable.pureref
-    qimgv
-
-    # Gnome development
-    icon-library
-    elastic
-
   ];
 }

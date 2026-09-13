@@ -4,12 +4,11 @@
 
 environment.systemPackages = with pkgs; [
 	# Core Packages
-	fish
 	eza
+	fish
 	fastfetch
 	tealdeer
 	zoxide
-	wl-clipboard # copy/paste
 
 	# Editors
 	micro 
@@ -17,28 +16,22 @@ environment.systemPackages = with pkgs; [
 
 	# Toys
 	cava
-	cavasik
 	peaclock
 
 	# Toolchain
 	bat
 	dysk
-	nmap
 	git
 	ripgrep
 	unzip
 	
 	# Terminal TUI
-	gdu
-	bluetui
+	gdu #ncdu alternative
 	yazi
-	broot #interactive tree
-	tree #static tree
-	file # encoding checker
+	tre-command #static tree
 
 	# HW Monitoring 
 	btop
-	gotop
 	nvtopPackages.full
 
   ];

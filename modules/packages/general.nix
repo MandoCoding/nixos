@@ -9,7 +9,6 @@
 environment.systemPackages = with pkgs; [
 	# Terminal Apps
 	ghostty
-    blackbox-terminal
 
     # general
     discord # discord client
@@ -18,19 +17,17 @@ environment.systemPackages = with pkgs; [
     gparted
 
     # GTK Apps
+    blackbox-terminal
+    gnome-terminal
     gnome-text-editor
     gnome-calculator
     gnome-clocks
-    adw-bluetooth
     gradia
     loupe
     nautilus
     resources
-    lact
-    foliate
-    speedtest
-    switcheroo
     cine
+    papers
 
     # other
     proton-vpn
@@ -38,7 +35,6 @@ environment.systemPackages = with pkgs; [
 
     # launcher
     vicinae # raycast like
-    speedtest-cli # laucher speed test
     awww # launcher wallpaper
    ];
 }
