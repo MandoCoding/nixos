@@ -34,6 +34,7 @@ environment.systemPackages = with pkgs; [
 
     # other
     proton-vpn
+    stow #symlink dotfiles
 
     # launcher
     vicinae # raycast like
