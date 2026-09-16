@@ -35,6 +35,9 @@ environment.systemPackages = with pkgs; [
     go
     wget # needed for termix flatpak
 
+    # BitTorrent
+    fragments
+
     # Experimental
     kdePackages.qttools
    ];
