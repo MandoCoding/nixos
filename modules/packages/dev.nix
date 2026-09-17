@@ -39,6 +39,6 @@ environment.systemPackages = with pkgs; [
     fragments
 
     # Experimental
-    kdePackages.qttools
+    neovim
    ];
 }
