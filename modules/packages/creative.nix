@@ -6,7 +6,8 @@ environment.systemPackages = with pkgs; [
     # Creative tools
     blender
     krita
-    obs-studio
+    kooha
+    #obs-studio
     orca-slicer
     pkgs-unstable.pureref
   ];
