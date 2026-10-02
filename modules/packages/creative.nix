@@ -10,5 +10,12 @@ environment.systemPackages = with pkgs; [
     #obs-studio
     orca-slicer
     pkgs-unstable.pureref
+    inputs.eagle.packages.${pkgs.system}.default
   ];
+
+# Eagle Machine ID hardware licensing verification
+services.udev.packages = [
+  inputs.eagle.packages.${pkgs.system}.default
+];
+
 }

@@ -6,6 +6,7 @@
     nixpkgs-unstable.url = "github:NixOS/nixpkgs/nixos-unstable";
     apple-fonts.url = "github:Lyndeno/apple-fonts.nix";
     thyx.url = "github:rccyx/thyx";
+    eagle.url = "github:Naitrate/Eagle-Linux";
 
     zen-browser = {
       url = "github:youwen5/zen-browser-flake";
