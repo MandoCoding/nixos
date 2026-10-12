@@ -15,6 +15,7 @@
     libsecret       # ← add: library nm-applet uses to talk to keyring
     seahorse        # ← add: GUI to inspect/manage keyring contents
     brightnessctl
+    grimblast
 
     hyprcursor
     rose-pine-hyprcursor

@@ -38,7 +38,7 @@
   ];
 
   # Keep host identity here. Do not abstract this too early.
-  networking.hostName = "nixos-desktop";
+  networking.hostName = "nixos-laptop";
   users.users.mando = {
     isNormalUser = true;
     description = "mando";
