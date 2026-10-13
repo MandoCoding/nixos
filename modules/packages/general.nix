@@ -12,7 +12,7 @@ environment.systemPackages = with pkgs; [
 
     # general
     discord # discord client
-    obsidian
+    pkgs-unstable.obsidian
     zenBrowser.packages.${pkgs.stdenv.hostPlatform.system}.default
     gparted
 

@@ -17,6 +17,7 @@
     ## enable desktops
     ../../modules/desktop/desktop-base.nix
     ../../modules/desktop/kde.nix
+    ../../modules/desktop/hyprland.nix
 
     ## enable additional services
     ../../modules/services/docker.nix
