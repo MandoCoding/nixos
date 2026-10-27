@@ -40,5 +40,6 @@ environment.systemPackages = with pkgs; [
 
     # Experimental
     bun
+    nodejs
    ];
 }
