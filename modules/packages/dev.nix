@@ -39,6 +39,7 @@ environment.systemPackages = with pkgs; [
     fragments
 
     # Experimental
+    pkgs-unstable.postgresql
     bun
     nodejs
    ];
