@@ -13,7 +13,7 @@ environment.systemPackages = with pkgs; [
     github-cli
 
     # Vault CLI
-    vault
+    pkgs-unstable.vault-bin
 
     # Editors
     pkgs-unstable.jetbrains.idea
