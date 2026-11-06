@@ -33,7 +33,7 @@ environment.systemPackages = with pkgs; [
     stow #symlink dotfiles
 
     # launcher
-    vicinae # raycast like
-    awww # launcher wallpaper
+    pkgs-unstable.vicinae # raycast like
+    pkgs-unstable.awww # launcher wallpaper
    ];
 }
