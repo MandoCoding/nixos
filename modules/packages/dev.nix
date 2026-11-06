@@ -11,6 +11,7 @@ environment.systemPackages = with pkgs; [
     # Version control
     git
     github-cli
+    git-filter-repo
 
     # Vault CLI
     pkgs-unstable.vault-bin
