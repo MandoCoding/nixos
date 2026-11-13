@@ -20,6 +20,7 @@ environment.systemPackages = with pkgs; [
     pkgs-unstable.jetbrains.idea
     pkgs-unstable.jetbrains.datagrip
     pkgs-unstable.jetbrains.webstorm
+    pkgs-unstable.rust-rover
 
     # Linux utils
     inetutils
@@ -38,6 +39,8 @@ environment.systemPackages = with pkgs; [
     uv
     go
     wget # needed for termix flatpak
+    rustc
+    rustup
 
     # BitTorrent
     fragments
