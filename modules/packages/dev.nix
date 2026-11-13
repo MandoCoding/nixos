@@ -21,6 +21,7 @@ environment.systemPackages = with pkgs; [
     pkgs-unstable.jetbrains.datagrip
     pkgs-unstable.jetbrains.webstorm
     pkgs-unstable.rust-rover
+    pkgs-unstable.zed-editor
 
     # Linux utils
     inetutils
