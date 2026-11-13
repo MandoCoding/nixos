@@ -10,6 +10,7 @@ environment.systemPackages = with pkgs; [
     keepassxc
 
     obs-studio # screen-capture for  tutorials
+    Foliate # e-book reader
 
   ];
 }
